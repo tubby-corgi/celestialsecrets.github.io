@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/tubby-corgi/celestialsecrets.github.io/issues"
   },
-  "homepage": "https://github.com/tubby-corgi/celestialsecrets.github.io#readme"
+  "homepage": "https://github.com/tubby-corgi/celestialsecrets.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
